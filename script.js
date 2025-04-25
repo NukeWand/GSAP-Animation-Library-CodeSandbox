@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+  // testing
   // Define breakpoints for different screen sizes
   const breakpoints = {
     mobilePortrait: 479,
