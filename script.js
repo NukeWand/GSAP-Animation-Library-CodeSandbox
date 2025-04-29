@@ -73,7 +73,7 @@ const animations = {
       $(element).css("transition-property", "none");
       gsap.from(element, {
         opacity: 0,
-        yPercent: 0, // Changed from y to yPercent for more responsive effect
+        yPercent: 50, // Changed from y to yPercent for more responsive effect
         duration: (params.duration, 1.2),
         ease: (params.ease, "power1.out"),
         scrollTrigger: params.scrollTrigger, // Directly using scrollTrigger from params
